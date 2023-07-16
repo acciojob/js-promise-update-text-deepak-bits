@@ -1,7 +1,7 @@
 //your JS code here. If required.
 function promiseFactory() {
 	return new Promise((resolve, reject) => {
-		setTimeOut(() => {
+		setTimeout(() => {
 			resolve('Hello, world!');
 		}, 1000)
 	})
